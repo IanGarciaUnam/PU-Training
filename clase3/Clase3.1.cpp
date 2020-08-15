@@ -15,10 +15,8 @@ int main(){
 char a, b;
 cin >> a >> b ;
 
-int r= a - b;
-if(r<0){
-	r*=-1;
-}
+int r= abs(a - b);
+
 cout <<  r << endl;
 return 0; 
 }
